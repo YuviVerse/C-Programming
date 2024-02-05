@@ -20,5 +20,5 @@ int main()
   printf("Everything else:\n");
   printf("The X is: %d\n The float is: %f\n %lf \n%c", x, y, z, c);
 
-  
+  x
 }
