@@ -1,0 +1,49 @@
+# C Programming Loop Exercises
+
+This repository contains a set of exercises focused on understanding and using loops in C programming. These exercises are designed for beginners and aim to strengthen the foundational skills in using `for`, `while`, and `do-while` loops without the need for arrays or functions.
+
+## Exercises
+
+### Exercise 1: Counting Up and Down
+
+Write a program that uses a `for` loop to count up from 1 to 10, then uses another loop to count down from 10 to 1. Print each number on a new line.
+
+### Exercise 2: Sum of First N Natural Numbers
+
+Ask the user to input a positive integer `N`. Then, write a program that calculates the sum of the first `N` natural numbers using a `while` loop. Print the result.
+
+### Exercise 3: Factorial Calculator
+
+Prompt the user to enter a non-negative integer. Use a `for` loop to calculate the factorial of that number and display the result.
+
+### Exercise 4: Odd Numbers Printer
+
+Write a program that prints all odd numbers between 1 and 100 using a `for` loop.
+
+### Exercise 5: Multiplication Table
+
+Ask the user to enter a positive integer `N`. Use a loop to print the multiplication table for `N` up to 10.
+
+### Exercise 6: Number Pyramid
+
+Write a program that uses nested `for` loops to print a pyramid of numbers. The pyramid should have 5 levels, and the numbers on each level correspond to the level number.
+
+### Exercise 7: Input Validation
+
+Prompt the user to enter a positive integer between 1 and 10. Use a `do-while` loop to keep asking for the number if the input is outside the range.
+
+### Exercise 8: Break and Continue
+
+Write a program that iterates from 1 to 100 using a `for` loop. Use the `continue` statement to skip any number divisible by 3 and the `break` statement to stop the loop if a number greater than 50 is reached.
+
+### Exercise 9: Reverse Digits
+
+Ask the user to input a positive integer. Use a `while` loop to reverse the digits of the number and print the reversed number.
+
+### Exercise 10: Prime Number Checker
+
+Prompt the user to enter a positive integer greater than 1. Write a program that uses a `for` loop to check whether the number is prime.
+
+## Getting Started
+
+To get started with these exercises, clone this repository to your local machine. Each exercise is designed to be completed in a separate C source file.
