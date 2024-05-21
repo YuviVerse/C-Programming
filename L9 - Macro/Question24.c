@@ -1,0 +1,1 @@
+#include <stdio.h> #define INIT_2D_ARRAY(arr, rows, cols, value) { for (int i = 0; i < rows; i++) { for (int j = 0; j < cols; j++) { arr[i][j] = value; } } } int main() { int arr[3][3]; INIT_2D_ARRAY(arr, 3, 3, 0); for (int i = 0; i < 3; i++) { for (int j = 0; j < 3; j++) { printf("%d ", arr[i][j]); } printf("\n"); } return 0; }

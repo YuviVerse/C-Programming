@@ -1,0 +1,1 @@
+#include <stdio.h> #define FOREACH(item, array, length) for (int keep = 1, count = 0, size = length; keep && count != size; keep = !keep, count++) for (item = array[count]; keep; keep = !keep) int main() { int array[] = {10, 20, 30, 40, 50}; int length = sizeof(array) / sizeof(array[0]); int item; FOREACH(item, array, length) { printf("%d\n", item); } return 0; }
